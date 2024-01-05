@@ -4,6 +4,11 @@ nav {
     "Lucida Sans", Arial, sans-serif;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 100px;
+    margin-top: 10px;
+}
+h4{
+    padding-right: 200px;
 }
 /* nav ul li{
     display: inline;
@@ -48,4 +53,60 @@ button {
   line-height: normal;
   /* padding: 15px 35px; */
 
+}
+.header{
+    background-color: #FFF8F3;
+    /* width: 1000px !important;
+    height: 500px !important;
+    flex-shrink: 0; */
+/* flex-shrink: 0; */
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    text-align: left;
+    display: flex;
+    /* align-items: center; */
+}
+.banner-greeting{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.banner1{
+    color: var(--Dark-01, #ad5d5d);
+font-family: Open Sans;
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 25px;
+margin-top: 25px;
+}
+p{
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+}
+.btn-primary{
+    color: var(--White-Color, #FFF);
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    width: 200px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+background: #FD6E0A;
+}
+img{
+    /* width: 500px; */
 }
